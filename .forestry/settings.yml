@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: team
   label: Team bios
-  create: all
+  create: documents
   match: "**/*.md"
   templates:
   - stuff
