@@ -6,14 +6,10 @@ fields:
 - type: text
   name: name
   label: Name
-- name: bio
-  type: textarea
-  default: ''
+- name: portrait
+  type: file
   config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Bio
+    maxSize: 64
+  label: Portrait
 pages:
 - team/chad.md
