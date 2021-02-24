@@ -3,8 +3,14 @@ label: Stuff
 hide_body: true
 fields:
 - type: text
-  name: title
-  label: title
-- type: text
-  name: description
-  label: description
+  name: name
+  label: Name
+- name: bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Bio
