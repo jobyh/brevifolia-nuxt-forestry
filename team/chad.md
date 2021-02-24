@@ -1,5 +1,0 @@
----
-name: Chad
-bio: Foo
-
----
