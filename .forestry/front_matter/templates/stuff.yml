@@ -14,3 +14,5 @@ fields:
     schema:
       format: markdown
   label: Bio
+pages:
+- team/chad.md
