@@ -1,4 +1,9 @@
 ---
 label: Team Page
 hide_body: true
-fields: []
+fields:
+- name: foo
+  type: include
+  config: {}
+  template: stuff
+  label: Foo
