@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: team
+  label: Team bios
+  create: all
+  match: "**/*.md"
+  templates:
+  - stuff
 - type: heading
   label: Content
 - type: document
